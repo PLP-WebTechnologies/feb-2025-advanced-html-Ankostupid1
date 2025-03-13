@@ -1,5 +1,90 @@
 <!DOCTYPE html>
 <html>
+        <head>
+            <meta charset="utf-8">
+            <title>Apppointment</title>
+            <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        </head>
+        <body>
+                <header>
+                        <h1>This is my assignment for web development</h1>
+                </header>
+                <p>I hereby present my work done by me personally.</p>
+                <main>
+                <form>
+                        <input type="text" name="name" placeholder="Your Name">
+                        <input type="text" name="email" placeholder="Your Email">
+                        <input type="text" name="country" placeholder="Your Country">
+                </form>
+                <table border="1" >
+                        <tr>
+                        <th>Namet</th>
+                        <th>Email</th>
+                        <th>Phone Number</th>
+                        </tr>
+                        <tr>
+                        <td>Smith Myles</td>
+                        <td>mylessmith@gmail.com</td>
+                        <td>0712345678</td>
+                        </tr>
+                </table>
+                <img src="" href="">
+                <a href="https://google.com">Google</a>
 
-  
+                   <form action="" method="">
+        <label for="name">Name <span style="color: red;">*</span></label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="email">Email <span style="color: red;">*</span></label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="password">Password <span style="color: red;">*</span></label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="6">
+
+        <label for="date">Date of Birth <span style="color: red;">*</span></label>
+        <input type="date" id="date" name="date" required>
+        <label for="country">Country</label>
+                     
+        <select id="country" name="country">
+            <option value="" disabled selected>Select your country</option>
+            <option value="us">United States</option>
+            <option value="ca">Canada</option>
+            <option value="uk">United Kingdom</option>
+            <option value="au">Australia</option>
+
+        </select>
+
+        <fieldset>
+            <legend>Gender <span style="color: red;">*</span></legend>
+            <label>
+                <input type="radio" name="gender" value="male" required> Male
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female" required> Female
+            </label>
+            <label>
+                <input type="radio" name="gender" value="other" required> Other
+            </label>
+        </fieldset>
+
+        <div class="checkbox-group">
+            <label><strong>Interests:</strong></label>
+            <label>
+                <input type="checkbox" name="interests" value="sports"> Sports
+            </label>
+            <label>
+                <input type="checkbox" name="interests" value="music"> Music
+            </label>
+            <label>
+                <input type="checkbox" name="interests" value="travel"> Travel
+            </label>
+            <label>
+                <input type="checkbox" name="interests" value="reading"> Reading
+            </label>
+        </div>
+        <input type="submit" value="Register">
+    </form>
+                </main>
+        </body>
+        
 </html>
